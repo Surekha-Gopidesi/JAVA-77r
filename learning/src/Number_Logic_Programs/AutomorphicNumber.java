@@ -4,7 +4,6 @@ package Number_Logic_Programs;
 	public class AutomorphicNumber {
 	  
 public static void display(int num) {
-	             // change number here
 	        int square = num * num;
 
 	        int temp = num;
