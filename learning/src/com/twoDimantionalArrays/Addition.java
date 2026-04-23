@@ -13,7 +13,7 @@ public class Addition {
 		int c[][]=new int [rowA][colA];
 		int sum=0;
 		for(int i=0;i<a.length;i++) {
-			for(int j=0;j<a.length;j++) {
+			for(int j=0;j<a[0].length;j++) {
 				
 				c[i][j]=a[i][j]+b[i][j];
 				
@@ -21,9 +21,10 @@ public class Addition {
 			}
 		}
 		
-		for(int i=0;i<c.length;i++) {
-			System.out.println(Arrays.toString(c[i]));
-		}
+		System.out.println(Arrays.deepToString(c));
+//		for(int i=0;i<c.length;i++) {
+//			System.out.println(Arrays.toString(c[i]));
+//		}
 
 	}
 
